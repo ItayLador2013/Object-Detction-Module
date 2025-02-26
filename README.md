@@ -17,9 +17,10 @@ Easly train, save and use an object detection model based on .xml annotations.
    ```bash
    pip install -r requirements.txt
    ```
+## Example made using module for blood cell detection & classification
+![classified blood cell]([https://github.com/ItayLador2013/Object-Detction-Module/blob/main/example-usage.png?raw=true)
 
 ## Usage
-
 You need to have two data folders: annotations and images. 
 The annotation .xml files should contain the following:
 
@@ -83,6 +84,7 @@ where predictions = {
     "scores": torch.tensor([score1, score2, ...])
 }
 ```
+
 
 ## License
 [MIT](LICENSE)
