@@ -18,7 +18,7 @@ Easly train, save and use an object detection model based on .xml annotations.
    pip install -r requirements.txt
    ```
 ## Example made using module for blood cell detection & classification
-![classified blood cell](https://github.com/ItayLador2013/Object-Detction-Module/blob/main/example-usage.png?raw=true)
+<img src="https://github.com/ItayLador2013/Object-Detction-Module/blob/main/example-usage.png?raw=true" width="300">
 
 ## Usage
 You need to have two data folders: annotations and images. 
