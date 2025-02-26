@@ -229,8 +229,6 @@ class ODM():
             scores = predictions["scores"].cpu().numpy()
             valid_indices = scores >= 0.2
             boxes, labels = boxes[valid_indices], labels[valid_indices]
-            print(boxes)
-
             figure, axes = plt.subplots(1, figsize=(8, 8))
             figure.patch.set_facecolor('black')
             axes.imshow(image)
